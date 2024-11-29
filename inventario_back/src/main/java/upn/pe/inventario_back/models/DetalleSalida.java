@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class DetalleSalida {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
 
     private Integer cantidad;

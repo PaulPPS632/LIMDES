@@ -6,6 +6,7 @@ public record UsuarioRequest(
         String documento,
         String nombre,
         String direccion,
-        String telefono
+        String telefono,
+        String rol
 ) {
 }

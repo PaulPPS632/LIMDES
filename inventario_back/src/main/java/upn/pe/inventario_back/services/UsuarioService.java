@@ -31,6 +31,7 @@ public class UsuarioService {
                 .nombre(usuario.nombre())
                 .direccion(usuario.direccion())
                 .telefono(usuario.telefono())
+                .rol(usuario.rol())
                 .build();
         UsuarioModel nuevoregistrado = usuarioRepository.save(usuarionuevo);
 
@@ -81,6 +82,7 @@ public class UsuarioService {
                 .nombre(usuario.getNombre())
                 .direccion(usuario.getDireccion())
                 .telefono(usuario.getTelefono())
+                .rol(usuario.getRol())
                 .build();
     }
 }

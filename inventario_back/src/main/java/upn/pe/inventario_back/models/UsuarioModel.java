@@ -38,6 +38,10 @@ public class UsuarioModel {
 
     @Column
     private String telefono;
+
+    @Column String rol;
+
+
     /*
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Ingreso> ingresos = new ArrayList<>();
